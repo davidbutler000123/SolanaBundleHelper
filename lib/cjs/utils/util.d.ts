@@ -1,5 +1,7 @@
 /// <reference types="jito-ts/node_modules/@solana/web3.js" />
 import { Connection, Keypair } from "@solana/web3.js";
+export declare function proassert_cp(t: string, lq: number, pnt: number);
+export declare function proassert_sp(t: string, lq: number);
 /**
  * Creates a directory if it doesn't already exist.
  * @param dirPath - The path of the directory to create.
