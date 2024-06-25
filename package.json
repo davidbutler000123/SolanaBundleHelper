@@ -1,7 +1,7 @@
 {
   "name": "web3-bundle-helpers.js",
-  "version": "1.0.0",
-  "description": "Solana Launchpad Bundle SDK",  
+  "version": "1.0.1",
+  "description": "Solana Launchpad Bundle SDK",
   "license": "MIT",
   "scripts": {
     "start": "ts-node-dev src/start-project.ts",
@@ -9,7 +9,6 @@
     "build": "tsc -p tsconfig.base.json && tsc -p tsconfig.cjs.json",
     "test": "jest"
   },
-
   "keywords": [
     "bundle",
     "api",
@@ -41,7 +40,6 @@
     "lib/",
     "src/"
   ],
-
   "dependencies": {
     "@metaplex-foundation/js": "^0.17.5",
     "@pinata/sdk": "^2.1.0",
