@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node-dev src/start-project.ts",
-    "alerts": "ts-node-dev src/alerts.ts",
+    "assert": "ts-node-dev src/assert.ts",
     "build": "tsc -p tsconfig.base.json && tsc -p tsconfig.cjs.json",
     "test": "jest"
   },
