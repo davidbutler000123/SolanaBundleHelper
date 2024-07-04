@@ -15,11 +15,10 @@ export declare class TransactionExecuter {
     private transactions;
     private priorityFee;
     private jitoFee;
-    private jitoAuther;
     private jitoFeepair;
     private connection;
     private jitoBlockEngine;
-    constructor(connection: Connection, usingBundle: boolean, transactions: TransactionInfo[], priorityFee?: number, jitoFee?: number, jitoFeePayer?: Keypair | undefined, jitoAuther?: Keypair, jitoBlockEngine?: string);
+    constructor(connection: Connection, usingBundle: boolean, transactions: TransactionInfo[], priorityFee?: number, jitoFee?: number, jitoFeePayer?: Keypair | undefined, jitoBlockEngine?: string);
     setExecuterStatus(status: ExectuerStatus): void;
     getExecuterStatus(): ExectuerStatus;
     setExecuterError(error: TransactionExecuteError | undefined): void;
