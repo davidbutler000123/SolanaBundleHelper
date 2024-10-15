@@ -14,4 +14,5 @@ export * from "./utils/budget";
 export * from "./utils/error-helper";
 export * from "./utils/get-balance";
 export * from "./utils/util";
+export * from "./utils/meteora";
 export * from "./errors";

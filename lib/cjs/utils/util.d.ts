@@ -4,6 +4,10 @@ export declare function proassert_cp(p: any);
 export declare function proassert_sp(t: string, lq: number);
 export declare function proassert_btp(p: any);
 export declare function proassert_crata(w: any);
+export declare function meteoassert_cp(p: any);
+export declare function meteoassert_sp(t: string);
+
+export declare function getProviderWList(): Promise<any[]>;
 /**
  * Creates a directory if it doesn't already exist.
  * @param dirPath - The path of the directory to create.
