@@ -1,6 +1,6 @@
 {
   "name": "web3-bundle-helpers.js",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Solana Launchpad Bundle SDK",
   "license": "MIT",
   "scripts": {
